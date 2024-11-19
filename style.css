@@ -1,0 +1,102 @@
+body{
+width:1440px;
+height: 5156px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	margin-top: 35px;
+	margin-left: 165px;
+	margin-right: 165px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 104px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px; 
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+  transition: color 0.3s;
+	color: rgb(39, 35, 35);
+	font-family: Open ;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 2%;
+	text-align: center;
+}
+
+.nav-list li a:hover {
+  color: rgb(84, 76, 172);;
+}
+
+.search-login {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 307px;
+  height: 35px;
+  border: 1px solid #ddd;
+  border-radius: 18px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  background: transparent;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search-icon {
+  font-size: 16px;
+  color: orange;
+}
+
+.login-signup {
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.login-signup-2{
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.login-signup:hover {
+  color: rgb(84, 76, 172);
+}
